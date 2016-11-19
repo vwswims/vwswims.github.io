@@ -126,9 +126,9 @@ $(document).ready(function(){
                 height: 160,
                 rotation: 'clockwise',
                 thickness: .3,
-                inputColor: color,
+                inputColor: '#6c052e',
                 bgColor: '#ffffff',
-                fgColor: color,
+                fgColor: '#6c052e',
                 'draw' : function () {
                     $(this.i).val(this.cv + '%')
                 }

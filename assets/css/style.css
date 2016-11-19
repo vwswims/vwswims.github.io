@@ -24,6 +24,13 @@ Author:	Ukieweb
 /* ------------------
     General setting
 --------------------*/
+
+#profile {
+    display: block;
+    max-width: 500px;
+    max-height: 500px;
+}
+
 *{
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
     font-weight: 300;
@@ -254,6 +261,7 @@ a:hover, a:visited, a:focus, a:active{
 }
 .home-header  .full-length-photo{
     margin-top: 24px;
+    padding-left: 20px;
 }
 
 
@@ -343,7 +351,7 @@ a:hover, a:visited, a:focus, a:active{
     left: 130px;;
 }
 .icons-menu {
-    height: 100px;
+    height: 30px;
     margin: 0 auto;
     -webkit-filter: url("#goo");
     position: relative;
